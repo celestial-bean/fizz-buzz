@@ -8,13 +8,13 @@ function fizzbuzz(i) {
       return "fizz";
     }
   }else if (i%5==0){
-  return "buzz"
+  return "buzz";
   }else{
   return ` ${i}`;
   }
 }
 
 for (var i = 1; i <= limit; i++) {
-  final.push(fizzbuzz(i)+", ");
+  final.push(fizzbuzz(i));
 }
 document.querySelector("a").textContent = final
