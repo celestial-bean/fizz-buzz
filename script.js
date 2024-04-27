@@ -3,12 +3,12 @@ var limit=prompt("How many digits?");
 function fizzbuzz(i) {
   if (i % 3 == 0) {
     if (i % 5 == 0) {
-      return "fizzbuzz";
+      return " fizzbuzz";
     } else {
-      return "fizz";
+      return " fizz";
     }
   }else if (i%5==0){
-  return "buzz";
+  return " buzz";
   }else{
   return ` ${i}`;
   }
